@@ -16,7 +16,7 @@
         measurementId: ""
     };
     // Initialize Firebase
-    firebase.initializeApp(firebaseConfig);
+    //firebase.initializeApp(firebaseConfig);
     //var firestore = firebase.firestore();
     
     App.firestore = firestore;
