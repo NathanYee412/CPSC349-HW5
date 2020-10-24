@@ -1,3 +1,27 @@
+(function (window) {
+    'use strict';
+    var App = window.App || {};
+    var $ = window.jQuery;
+
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    var firebaseConfig = {
+        apiKey: "",
+        authDomain: "",
+        databaseURL: "",
+        projectId: "",
+        storageBucket: "",
+        messagingSenderId: "",
+        appId: "",
+        measurementId: ""
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    //var firestore = firebase.firestore();
+    
+    App.firestore = firestore;
+    window.App = App;
+})(window);
 
 
 //   function sendToFirestore(data) {
