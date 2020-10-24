@@ -4,6 +4,14 @@
   var App = window.App || {};
   var $ = window.jQuery;
 
+
+//   class sendToFirebase {
+//       constructor(data) {
+//           console.log('sending to firestore')
+//           this.data = data;
+//       }
+//   }
+
   class FormHandler {
       constructor(selector) {
           // code will go here
@@ -42,6 +50,10 @@
                   console.log(item.name + ' is ' + item.value);
               });
               console.log(data);
+              sendToFirestore(data);
+            //   var fireData = new sendToFirebase(data);
+            //   console.log('fireData ' + fireData)
+              
               fn(data)
               .then(function() {
                   this.reset();
