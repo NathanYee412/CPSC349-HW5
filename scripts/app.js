@@ -11,14 +11,14 @@
 (function(window) {
     'use strict';
     window.FireBaseConfig = {
-        apiKey: "AIzaSyAD1akCK11yRLuafmlF9A8he1h_Ogwt1hI",
-        authDomain: "coffeerun-c5ad0.firebaseapp.com",
-        databaseURL: "https://coffeerun-c5ad0.firebaseio.com",
-        projectId: "coffeerun-c5ad0",
-        storageBucket: "coffeerun-c5ad0.appspot.com",
-        messagingSenderId: "983105482749",
-        appId: "1:983105482749:web:b5fcdf8d140d76c4ff7394",
-        measurementId: "G-SXVXMN7WS6"
+        apiKey: "",
+        authDomain: "",
+        databaseURL: "",
+        projectId: "",
+        storageBucket: "",
+        messagingSenderId: "",
+        appId: "",
+        measurementId: ""
     };
 })(window);
 
