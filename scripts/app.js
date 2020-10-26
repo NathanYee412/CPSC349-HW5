@@ -1,26 +1,25 @@
-(function (window) {
-    'use strict';
-    var App = window.App || {};
-    var $ = window.jQuery;
+// ONLINE: you MUST fill in the following values 
+//               from Firebase/Firestore for your project 
+// PROJECT_ID,
+// WEB_API_KEY,
+// PROJECT_NUMBER
+//
+// go to... 
+// console.Firebase.google.com, then 
+//    click on the Gear Icon -> Project Settings -> General
 
-    // Your web app's Firebase configuration
-    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-    var firebaseConfig = {
-        apiKey: "",
-        authDomain: "",
-        databaseURL: "",
-        projectId: "",
-        storageBucket: "",
-        messagingSenderId: "",
-        appId: "",
-        measurementId: ""
+(function(window) {
+    'use strict';
+    window.FireBaseConfig = {
+        apiKey: "AIzaSyAD1akCK11yRLuafmlF9A8he1h_Ogwt1hI",
+        authDomain: "coffeerun-c5ad0.firebaseapp.com",
+        databaseURL: "https://coffeerun-c5ad0.firebaseio.com",
+        projectId: "coffeerun-c5ad0",
+        storageBucket: "coffeerun-c5ad0.appspot.com",
+        messagingSenderId: "983105482749",
+        appId: "1:983105482749:web:b5fcdf8d140d76c4ff7394",
+        measurementId: "G-SXVXMN7WS6"
     };
-    // Initialize Firebase
-    //firebase.initializeApp(firebaseConfig);
-    //var firestore = firebase.firestore();
-    
-    App.firestore = firestore;
-    window.App = App;
 })(window);
 
 
