@@ -49,11 +49,7 @@
                   data[item.name] = item.value;
                   console.log(item.name + ' is ' + item.value);
               });
-              console.log(data);
-              sendToFirestore(data);
-            //   var fireData = new sendToFirebase(data);
-            //   console.log('fireData ' + fireData)
-              
+              console.log(data);             
               fn(data)
               .then(function() {
                   this.reset();
